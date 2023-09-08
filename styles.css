@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+#control {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+#control a {
+  display: none;
+  padding: 15px 20px;
+  background-color: #911d2f;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 9px;
+  text-decoration: none;
+}
+
+#control a:hover {
+  background-color: darkred;
+}
